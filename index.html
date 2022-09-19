@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Diagram</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Block layout options</h1>
+            <div class="subtitles">
+                <a href="#" class="subtitle tree active">Tree</a>
+                <a href="#" class="subtitle columns">Сolumns</a>
+                <a href="#" class="subtitle one_column">One column</a>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="diagram">
+            <div class="left_block">
+                <div class="inner_block">
+                    <div class="head">
+                        <div class="bg_img">
+                            <img src="img/arctic-fox.png" alt="arctic-fox">
+                        </div>
+                        <p class="title">Taskade</p>
+                    </div>
+                    <div class="subtitle">
+                        <div class="subtitle_line blue"></div>
+                        <div class="subtitle_line red"></div>
+                        <div class="subtitle_line yellow"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle_block">
+                <div class="vertical_line"></div>
+                <div class="block">
+                    <div class="horizontal_line horizontal_line_at"></div>
+                    <p class="descr descr_ta">
+                        <img src="img/calendar.png" alt="calendar">
+                        <span>Team Agenda</span>
+                    </p>
+                </div>
+                <div class="block">
+                    <div class="horizontal_line horizontal_line_ewt"></div>
+                    <p class="descr descr_ewt">
+                        <img src="img/laptop.png" alt="laptop">
+                        <span>Engineering Weekly Tasks</span>
+                    </p>
+                </div>
+                <div class="block">
+                    <div class="horizontal_line horizontal_line_dsd"></div>
+                    <p class="descr descr_dsd">
+                        <img src="img/rocket.png" alt="rocket">
+                        <span>Design Sprint Deliverables</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="right_block">
+                <div class="inner_right_block">
+                    <div class="progress progress_ta">
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width1 blue"></span>
+                        </div>
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width2 blue"></span>
+                        </div>
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width3 blue"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner_right_block">
+                    <div class="progress progress_ewt">
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width1 red"></span>
+                        </div>
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width2 red"></span>
+                        </div>
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width3 red"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner_right_block">
+                    <div class="progress progress_dsd">
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width1 yellow"></span>
+                        </div>
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width2 yellow"></span>
+                        </div>
+                        <div>
+                            <span class="quad"></span>
+                            <span class="line width3 yellow"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
